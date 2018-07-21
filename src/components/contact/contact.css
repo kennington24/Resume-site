@@ -1,0 +1,50 @@
+.openModal {
+  background: #e2d0e2;
+  border-radius: 2em;
+  position: fixed;
+  bottom: 6%;
+  right: 3%;
+  height: 9%;
+  width: 10%;
+  z-index: 10;
+}
+
+.openModal:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-top-color: #e2d0e2;
+  border-bottom: 0;
+  border-left: 0;
+  margin-left: -10px;
+  margin-bottom: -20px;
+  z-index: 10;
+}
+
+.Jobinformation {
+  position: absolute;
+  top: 475px;
+  left: 250px;
+  right: 250px;
+  bottom: 35px;
+  border: 3px solid #000;
+  background: #fff;
+  /* overflow: auto; */
+  border-radius: 20px;
+  outline: none;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
