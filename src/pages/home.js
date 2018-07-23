@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Navbar from '../components/navbar/navbar';
 import Contact from '../components/contact/contact';
 import Background from '../components/background/background';
+import selfie from './IMG_0206.jpg';
 
 class Home extends Component {
   render() {
@@ -10,7 +11,14 @@ class Home extends Component {
       <div className="Homeapp">
         <Navbar />
         <Contact />
-        <div className="topdescription">asfdasdf </div>
+        <div className="topdescription">
+          <img src={selfie} className="selfie" alt="selfie" />
+          <p>
+            Hey there! My name is Kenny Pham and I am from the best state in the
+            US, Colorado. <br />In my free time I like to hike, play games, and
+            hangout with my dog.
+          </p>
+        </div>
         <div className="description"> asfdasdf</div>
         <div className="description"> asdfasdf</div>
         <Background />

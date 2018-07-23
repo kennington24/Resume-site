@@ -25,20 +25,29 @@
   z-index: 10;
 }
 
-.Jobinformation {
+.ContactModal {
   position: absolute;
-  top: 475px;
-  left: 250px;
-  right: 250px;
-  bottom: 35px;
+  float: left;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   border: 3px solid #000;
   background: #fff;
   /* overflow: auto; */
   border-radius: 20px;
-  outline: none;
-  padding-top: 10px;
-  padding-left: 20px;
+  height: 60%;
+  width: 60%;
 }
+
+/* .ContactModal input {
+  display: flex;
+  margin-top: 5%;
+  margin-left: 38%;
+ 
+}
+
+.ContactModal p {
+} */
 
 .Overlay {
   position: fixed;

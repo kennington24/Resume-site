@@ -36,16 +36,15 @@ class Contact extends Component {
           overlayClassName="Overlay"
           className="hello"
         >
-          <div className="Jobinformation">
-            <h2>Job Information</h2>
-            <input placeholder="Company" />
-            <input placeholder="Souce of Job" />
+          <div className="ContactModal">
+            <h2>Contact me</h2>
+            <input placeholder="Your name" />
             <br />
-            <input placeholder="Link to Job Posting" />
-            <input placeholder="Resolution(Open/Closed" />
+            <input placeholder="Your E-Mail" />
             <br />
-            <input placeholder="Point of Contact" />
-            <input placeholder="Upload resume/CV" />
+            <input placeholder="Subject" />
+            <br />
+            <input placeholder="Message" />
           </div>
         </Modal>
       </div>

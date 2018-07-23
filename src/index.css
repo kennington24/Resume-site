@@ -1,4 +1,4 @@
-@media only screen and (min-width: 441px) {
+@media only screen and (min-width: 768px) {
   body {
     margin: 0;
     padding: 0;
@@ -10,8 +10,15 @@
     position: relative;
     height: 400px;
     width: 70%;
-    border: 9px solid black;
+    border: 2px solid lightgrey;
     margin-top: 100px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgba(256, 256, 256, 0.3);
+    border-radius: 40px;
+  }
+  .topdescription p {
+    padding: 20px;
   }
 
   .description {
@@ -19,9 +26,22 @@
     position: relative;
     height: 400px;
     width: 70%;
-    border: 9px solid black;
+    border: 2px solid lightgrey;
     margin-top: 42px;
     margin-bottom: 43px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgba(256, 256, 256, 0.3);
+    border-radius: 40px;
+  }
+  .description p {
+    padding: 20px;
+  }
+
+  .selfie {
+    margin-top: 20px;
+    height: 250px;
+    width: 250px;
   }
 
   .videoTag {
@@ -39,10 +59,15 @@
 
   .gif {
     display: none;
+  }
+  .talospic {
+    margin-top: 20px;
+    height: 270px;
+    width: 245px;
   }
 }
 
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 768px) {
   .gif {
     position: fixed;
     top: 0;
@@ -57,5 +82,10 @@
   }
   .videoTag {
     display: none;
+  }
+  .selfie {
+    margin-top: 20px;
+    height: 60%;
+    width: 45%;
   }
 }
