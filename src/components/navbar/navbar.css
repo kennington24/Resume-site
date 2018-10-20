@@ -1,43 +1,30 @@
 .Navbar {
-  height: 40px; /* Full-height: remove this if you want "auto" height */
-  width: 100%; /* Set the width of the sidebar */
+  height: auto; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 0; /* Stay on top */
-  background: #cedce7;
-  background: -moz-linear-gradient(top, #cedce7 0%, #596a72 100%);
-  background: -webkit-linear-gradient(top, #cedce7 0%, #596a72 100%);
-  background: linear-gradient(to bottom, #cedce7 0%, #596a72 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 );
+  z-index: 5; /* Stay on top */
+  background: #cbd2d0;
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-  top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top: 5%;
+  left: 5%;
   text-align: center;
-  z-index: 1;
-  opacity: 0.4;
-  filter: alpha(opacity=40);
-  -moz-opacity: 0.4;
-  -khtml-opacity: 0.4;
-  /* -webkit-transition: all 0.9s ease;
-  -moz-transition: all 0.9s ease;
-  -o-transition: all 0.9s ease; */
-  transition: all 0.5s ease;
 }
 
 /* The navigation menu links */
 .Navbar a {
-  margin: 30px;
   text-decoration: none;
   font-size: 20px;
-  color: white;
-  display: inline;
-}
-.Navbar:hover {
-  opacity: 0.85;
-  filter: alpha(opacity=85);
-  -moz-opacity: 0.85;
-  -khtml-opacity: 0.85;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: left;
+  width: 100%;
+  transition: transform 0.2s ease;
 }
 
 .atags a:hover {
-  color: aqua;
+  color: hotpink;
+  transform: translate(5px);
 }

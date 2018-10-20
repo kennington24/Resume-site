@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 // import video from '';
 import Navbar from '../components/navbar/navbar';
 import Contact from '../components/contact/contact';
-import Background from '../components/background/background';
 import talos from './IMG_6972.jpg';
 
 class Talos extends Component {
@@ -20,7 +19,6 @@ class Talos extends Component {
         </div>
         <div className="description" />
         <div className="description"> asdfasdf</div>
-        <Background />
       </div>
     );
   }
