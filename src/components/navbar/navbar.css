@@ -30,11 +30,11 @@
   text-decoration: none;
   top: 0;
   margin-bottom: 20px;
-  transition-duration: 350ms;
+  transition-duration: 700ms;
   transition-property: color;
 }
 
 .atags a:hover {
   color: #53687e;
-  font-size: 24px;
+  font-style: oblique;
 }
