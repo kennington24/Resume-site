@@ -31,9 +31,10 @@
   top: 0;
   margin-bottom: 20px;
   transition-duration: 350ms;
-  transition-property: color, transform;
+  transition-property: color;
 }
 
 .atags a:hover {
   color: #53687e;
+  font-size: 25px;
 }
