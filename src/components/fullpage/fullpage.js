@@ -16,7 +16,6 @@ class Fullpage extends React.Component {
         slidesNavigation={true}
         recordHistory={false}
         menu={['myMenu']}
-        lockAnchors={true}
         render={({ state, fullpageApi }) => {
           return (
             <ReactFullpage.Wrapper>

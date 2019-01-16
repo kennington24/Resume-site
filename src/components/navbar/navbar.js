@@ -6,10 +6,8 @@ class Sidebar extends Component {
     return (
       <div className="Navbar">
         <ul className="atags" id="myMenu">
-          <li>
-            <a href="#Home" data-menuanchor="Home" className="">
-              Home
-            </a>
+          <li data-menuanchor="Home">
+            <a href="#Home">Home</a>
           </li>
           <li data-menuanchor="Projects">
             <a href="#Projects">Projects</a>
