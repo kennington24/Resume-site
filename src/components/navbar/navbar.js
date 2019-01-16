@@ -5,11 +5,19 @@ class Sidebar extends Component {
   render() {
     return (
       <div className="Navbar">
-        <nav className="atags">
-          <a href="/#Home">Home</a>
-          <a href="/#Projects">Projects</a>
-          <a href="/#Contact">Contact</a>
-        </nav>
+        <ul className="atags" id="myMenu">
+          <li>
+            <a href="#Home" data-menuanchor="Home" className="">
+              Home
+            </a>
+          </li>
+          <li data-menuanchor="Projects">
+            <a href="#Projects">Projects</a>
+          </li>
+          <li data-menuanchor="Contact">
+            <a href="#Contact">Contact</a>
+          </li>
+        </ul>
       </div>
     );
   }

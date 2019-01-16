@@ -21,13 +21,13 @@
 }
 
 /*dot nav*/
-#fp-nav.fp-right {
+/* #fp-nav.fp-right {
   right: 0px;
 }
 
 #fp-nav {
   top: 100px;
-}
+} */
 
 /*hover title on dot nav*/
 #fp-nav ul li .fp-tooltip {
