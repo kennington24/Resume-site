@@ -8,17 +8,16 @@ class Fullpage extends React.Component {
     return (
       <ReactFullpage
         licenseKey={'OPEN-SOURCE-GPLV3-LICENSE'}
-        sectionsColor={['#ffffff55', '#ffffff85', '#ffffff85']}
+        sectionsColor={['#ffffff65', '#ffffff75', '#ffffff85']}
         anchors={['Home', 'Projects', 'Contact']}
         navigationTooltips={['Home', 'Projects', 'Contact']}
         slidesNavigation={true}
-        navigation={true}
         recordHistory={false}
         render={({ state, fullpageApi }) => {
           return (
             <ReactFullpage.Wrapper>
               <ul id="myMenu">
-                <li data-menuanchor="Home" class="active">
+                <li data-menuanchor="Home" className="active">
                   <a href="#Home">First section</a>
                 </li>
                 <li data-menuanchor="Projects">
@@ -30,15 +29,20 @@ class Fullpage extends React.Component {
               </ul>
               <div className="section">
                 <h3>
-                  My name is Kenny Pham and I am a software developer living in
-                  Denver, CO. My main focus is on the front end with React.
+                  Hey there! My name is Kenny Pham and I am from the best state
+                  in the US, Colorado.
+                </h3>
+                <br />
+                <h3>
+                  In my free time I like to hike, play games, and hangout with
+                  my dog.
                 </h3>
               </div>
               <div className="section">
-                <div class="slide">
+                <div className="slide">
                   <h3>Projects</h3>
                 </div>
-                <div class="slide">
+                <div className="slide">
                   <p>Projects</p>
                 </div>
               </div>

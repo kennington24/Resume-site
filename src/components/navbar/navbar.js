@@ -6,11 +6,9 @@ class Sidebar extends Component {
     return (
       <div className="Navbar">
         <nav className="atags">
-          <a href="/">Home</a>
-          <a href="/about">About Me</a>
-          <a href="/experience">Experience</a>
-          <a href="/projects">Projects</a>
-          <a href="/talos">My dog</a>
+          <a href="/#Home">Home</a>
+          <a href="/#Projects">Projects</a>
+          <a href="/#Contact">Contact</a>
         </nav>
       </div>
     );

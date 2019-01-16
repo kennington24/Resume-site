@@ -1,7 +1,7 @@
 import React from 'react';
 import Fullpage from '../components/fullpage/fullpage';
 import Contact from '../components/contact/contact';
-// import Navbar from '../components/navbar/navbar';
+import Navbar from '../components/navbar/navbar';
 import Background from '../images/BWpainting.jpg';
 
 class Home extends React.Component {
@@ -11,6 +11,7 @@ class Home extends React.Component {
         <img src={Background} className="background" alt="background" />
         <Contact />
         <Fullpage />
+        <Navbar />
       </div>
     );
   }

@@ -10,10 +10,6 @@ ReactDOM.render(
   <Router>
     <div>
       <Route exact path="/" component={Homepage} />
-      <Route exact path="/experience" />
-      <Route exact path="/resume" />
-      <Route exact path="/hobbies" />
-      <Route exact path="/talos" component={Talospage} />
     </div>
   </Router>,
   document.getElementById('root')

@@ -28,3 +28,7 @@
   color: hotpink;
   transform: translate(5px);
 }
+
+.atags .active {
+  color: #1a6da1 !important;
+}

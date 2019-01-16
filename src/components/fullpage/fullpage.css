@@ -1,13 +1,35 @@
+.section {
+  margin: auto;
+  position: relative;
+  top: 0;
+  width: 100%vw;
+  text-align: center;
+}
+
+/*arrows on slides*/
 .fp-controlArrow.fp-next {
   right: 40px;
   border-width: 38.5px 0 38.5px 34px;
-  border-color: transparent transparent transparent #fff;
+  border-color: transparent transparent transparent #53687e;
 }
 
+.fp-controlArrow.fp-prev {
+  left: 15px;
+  width: 0;
+  border-width: 38.5px 34px 38.5px 0;
+  border-color: transparent #53687e transparent transparent;
+}
+
+/*dot nav*/
 #fp-nav.fp-right {
   right: 0px;
 }
 
+#fp-nav {
+  top: 100px;
+}
+
+/*hover title on dot nav*/
 #fp-nav ul li .fp-tooltip {
   color: #53687e;
 }

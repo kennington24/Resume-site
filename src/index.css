@@ -4,20 +4,14 @@ body {
   font-family: sans-serif;
 }
 
-.section {
-  margin: auto;
-  position: relative;
-  height: 100%vh;
-  width: 100%vw;
-  text-align: center;
-  vertical-align: middle;
-  border-radius: 90px;
-}
-
 .background {
   position: fixed;
-
+  top: 0;
   z-index: -10;
+}
+
+#myMenu {
+  display: none;
 }
 
 /* #fp-nav ul li a span,
