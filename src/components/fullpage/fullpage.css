@@ -1,0 +1,13 @@
+.fp-controlArrow.fp-next {
+  right: 40px;
+  border-width: 38.5px 0 38.5px 34px;
+  border-color: transparent transparent transparent #fff;
+}
+
+#fp-nav.fp-right {
+  right: 0px;
+}
+
+#fp-nav ul li .fp-tooltip {
+  color: #53687e;
+}

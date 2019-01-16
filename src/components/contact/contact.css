@@ -1,5 +1,5 @@
 .openModal {
-  background: #e2d0e2;
+  background: #c1dbe3;
   border-radius: 2em;
   position: fixed;
   bottom: 6%;
@@ -9,16 +9,15 @@
   z-index: 10;
 }
 
-.openModal:after {
+/* .openModal:after {
   content: '';
   position: absolute;
   bottom: 0;
   left: 50%;
   width: 0;
   height: 0;
-
   z-index: 10;
-}
+} */
 
 .openModal :hover {
   cursor: pointer;
@@ -30,20 +29,42 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  border: 3px solid #000;
-  background: #fff;
+  border: 2px solid #cbd2d0;
+  background: rgba(203, 210, 208, 0.6);
   /* overflow: auto; */
   border-radius: 20px;
-  height: 60%;
+  padding-bottom: 30px;
+  height: 70%;
   width: 60%;
 }
 
-.ContactModal input {
-  display: flex;
-  margin-top: 5%;
-  margin-left: 38%;
+.ContactTitle {
+  font-size: 30px;
+  width: auto;
+  text-align: center;
 }
 
+.ContactModal textarea {
+  background-color: #c1dbe3;
+  border: 1px solid #cbd2d0;
+  outline: none;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  resize: none;
+  border-radius: 10px;
+}
+
+.ContactBtn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* blurred background behind modal */
 .Overlay {
   position: fixed;
   top: 0;
