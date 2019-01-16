@@ -3,12 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@fullpage/react-fullpage": "^0.1.10",
-    "emailjs": "^2.2.0",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
+    "@fullpage/react-fullpage": "^0.1.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
     "react-fullpage": "^0.1.19",
-    "react-modal": "^3.8.1",
+    "react-modal": "^3.5.1",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^2.1.3"

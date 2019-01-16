@@ -37,18 +37,14 @@ class Contact extends Component {
           className="hello"
         >
           <div className="ContactModal">
-            <p className="ContactTitle">Contact me</p>
-
-            <textarea placeholder="Your name" />
+            <h2>Contact me</h2>
+            <input placeholder="Your name" />
             <br />
-            <textarea placeholder="Your E-Mail" />
+            <input placeholder="Your E-Mail" />
             <br />
-            <textarea placeholder="Subject" />
+            <input placeholder="Subject" />
             <br />
-            <textarea placeholder="Message" />
-            <button type="button" className="ContactBtn">
-              Send
-            </button>
+            <input placeholder="Message" />
           </div>
         </Modal>
       </div>

@@ -1,43 +1,56 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+@media only screen and (min-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  .section {
+    margin: auto;
+    position: relative;
+    height: 100%vh;
+    width: 100%vw;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .description p {
+    padding: 20px;
+  }
+
+  .selfie {
+    margin-top: 20px;
+    height: 250px;
+    width: 250px;
+  }
+
+  .background {
+    position: fixed;
+
+    z-index: -10;
+  }
+
+  .gif {
+    display: none;
+  }
+  #fp-nav ul li a span,
+  .fp-slidesNav ul li a span {
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    height: 4px;
+    width: 4px;
+    border: 0;
+    background: hotpink;
+    left: 50%;
+    top: 50%;
+    margin: -2px 0 0 -2px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
 }
-
-.section {
-  margin: auto;
-  position: relative;
-  height: 100%vh;
-  width: 100%vw;
-  text-align: center;
-  vertical-align: middle;
-  border-radius: 90px;
-}
-
-.background {
-  position: fixed;
-
-  z-index: -10;
-}
-
-/* #fp-nav ul li a span,
-.fp-slidesNav ul li a span {
-  border-radius: 50%;
-  position: absolute;
-  z-index: 1;
-  height: 4px;
-  width: 4px;
-  border: 0;
-  color: hotpink;
-  left: 50%;
-  top: 50%;
-  margin: -2px 0 0 -2px;
-  -webkit-transition: all 0.1s ease-in-out;
-  -moz-transition: all 0.1s ease-in-out;
-  -o-transition: all 0.1s ease-in-out;
-  transition: all 0.1s ease-in-out;
-} */
-
 /* 
 @media only screen and (max-width: 768px) {
   .section {
@@ -47,7 +60,7 @@ body {
   background: hotpink;
 } */
 
-/* @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
   .background {
     position: fixed;
     top: 0;
@@ -64,10 +77,10 @@ body {
     z-index: 1;
     text-align: -webkit-center;
   }
-  .Homepage {
+  /* .Homepage {
     background-image: url(/src/images/BW\painting\BG.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-  }
-} */
+  } */
+}
