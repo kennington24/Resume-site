@@ -3,6 +3,7 @@ import Fullpage from '../components/fullpage/fullpage';
 import Navbar from '../components/navbar/navbar';
 import Background from '../images/BWpainting.jpg';
 
+
 class Home extends React.Component {
   render() {
     return (

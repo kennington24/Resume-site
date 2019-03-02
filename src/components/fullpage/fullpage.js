@@ -1,8 +1,9 @@
 import React from 'react';
 import 'fullpage.js/vendors/scrolloverflow';
 import ReactFullpage from '@fullpage/react-fullpage';
-
 import './fullpage.css';
+import Selfie from '../../images/Selfie.jpg';
+import Talos from '../../images/Talos.jpg';
 
 class Fullpage extends React.Component {
   render() {
@@ -10,35 +11,52 @@ class Fullpage extends React.Component {
       <ReactFullpage
         licenseKey={'OPEN-SOURCE-GPLV3-LICENSE'}
         anchors={['Home', 'Projects', 'Contact']}
-        sectionsColor={['#ffffff65', '#ffffff75', '#ffffff85']}
-        continuousVertical={true}
-        easingcss3={['cubic-bezier(1.000, -0.490, 0.015, 1.515)']}
+        sectionsColor={['#ffffff65', '#53687e', '#53687e']}
         slidesNavigation={true}
         recordHistory={false}
         menu={['myMenu']}
         render={({ state, fullpageApi }) => {
+          
           return (
             <ReactFullpage.Wrapper>
               <div className="section">
+              <img src={Selfie} className="Selfie" alt="Me" />
+              <div>
+                <img src={Talos} className="Talos" alt="Talos" />
+              </div>
+                <h2>
+                  Kenny Pham
+                </h2>
+                <br />
+
                 <h3>
-                  Hey there! My name is Kenny Pham and I am from the best state
-                  in the US, Colorado.
+                  Software Developer driven by UI/UX
                 </h3>
                 <br />
+
+                <h3>Pillow Fort Enthusiast </h3>
+                <br />
+
                 <h3>
-                  In my free time I like to hike, play games, and hangout with
-                  my dog.
+                Denver, Colorado
                 </h3>
               </div>
+
               <div className="section">
+                
+
                 <div className="slide">
                   <h3>Projects</h3>
                 </div>
+
                 <div className="slide">
                   <p>Projects</p>
                 </div>
+
               </div>
-              <div className="section">Contact</div>
+              <div className="section">
+                <h2>Contact</h2>
+              </div>
             </ReactFullpage.Wrapper>
           );
         }}

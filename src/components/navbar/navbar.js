@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './navbar.css';
 
-class Sidebar extends Component {
+class Navbar extends Component {
   render() {
     return (
       <div className="Navbar">
         <ul className="atags" id="myMenu">
           <li data-menuanchor="Home">
-            <a href="#Home">Home</a>
+            <a href="#Home">Intro</a>
           </li>
           <li data-menuanchor="Projects">
             <a href="#Projects">Projects</a>
@@ -21,4 +21,4 @@ class Sidebar extends Component {
   }
 }
 
-export default Sidebar;
+export default Navbar;
