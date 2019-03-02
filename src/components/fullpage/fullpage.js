@@ -56,7 +56,7 @@ class Fullpage extends React.Component {
               </div>
               <div className="section">
                 <h2>Contact</h2>
-                <form name="contact" netlify>
+                <form name="contact" data-netlify="true">
   <p>
     <label>Name: <input type="text" name="name" /></label>
   </p>
