@@ -2,8 +2,8 @@ import React from 'react';
 import 'fullpage.js/vendors/scrolloverflow';
 import ReactFullpage from '@fullpage/react-fullpage';
 import './fullpage.css';
-import Selfie from '../../images/Selfie.jpg';
-import Talos from '../../images/Talos.jpg';
+import Selfie from '../../files/Selfie.jpg';
+import Talos from '../../files/Talos.jpg';
 
 class Fullpage extends React.Component {
   render() {
@@ -40,6 +40,8 @@ class Fullpage extends React.Component {
                 <h3>
                 Denver, Colorado
                 </h3>
+
+              
               </div>
 
               <div className="section">
@@ -56,7 +58,21 @@ class Fullpage extends React.Component {
               </div>
               <div className="section">
                 <h2>Contact</h2>
-                
+                <form name="contact" method="post">
+          <input type="hidden" name="form-name" value="contact" />
+          <p>
+            <label>Your Name: <input type="text" name="name"/></label>
+          </p>
+          <p>
+            <label>Your Email: <input type="email" name="email"/></label>
+          </p>
+          <p>
+            <label>Message: <textarea name="message"></textarea></label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
               </div>
             </ReactFullpage.Wrapper>
           );
