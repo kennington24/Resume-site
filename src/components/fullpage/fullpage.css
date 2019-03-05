@@ -6,36 +6,6 @@
   text-align: center;
 }
 
-.Selfie {
-  height: 300px;
-  float: left;
-  border-radius: 50%;
-  margin-left: 20px;
-  opacity: 0.9;
-}
-
-.Talos {
-  height: 300px;
-  float: right;
-  border-radius: 50%;
-  margin-right: 20px;
-  opacity: 0.87;
-}
-
-/*arrows for slides on projects section*/
-.fp-controlArrow.fp-next {
-  right: 40px;
-  border-width: 38.5px 0 38.5px 34px;
-  border-color: transparent transparent transparent #cbd2d0;
-}
-
-.fp-controlArrow.fp-prev {
-  left: 15px;
-  width: 0;
-  border-width: 38.5px 34px 38.5px 0;
-  border-color: transparent #cbd2d0 transparent transparent;
-}
-
 /*dot nav*/
 /* #fp-nav.fp-right {
   right: 0px;
@@ -44,8 +14,69 @@
 #fp-nav {
   top: 100px;
 } */
-
-/*hover title on dot nav*/
+/* 
+hover title on dot nav
 #fp-nav ul li .fp-tooltip {
   color: #53687e;
+} */
+
+/* Home page styling */
+.Selfie {
+  height: 300px;
+  float: left;
+  border-radius: 50%;
+  margin-left: 20px;
+  opacity: 0.83;
 }
+
+.Talos {
+  height: 300px;
+  float: right;
+  border-radius: 50%;
+  margin-right: 20px;
+  opacity: 0.9;
+}
+/* Home page styling */
+
+/* Projects pages styling */
+.ProjectBox {
+  height: 80%;
+  width: 90%;
+  background-color: #53687e99;
+  margin: auto;
+  border-radius: 90px;
+}
+
+/*arrows for slides on projects section*/
+.fp-controlArrow.fp-next {
+  right: 15px;
+  border-width: 38.5px 0 38.5px 34px;
+  border-color: transparent transparent transparent #000000;
+}
+
+.fp-controlArrow.fp-prev {
+  left: 15px;
+  width: 0;
+  border-width: 38.5px 34px 38.5px 0;
+  border-color: transparent #000000 transparent transparent;
+}
+/* Projects pages styling */
+
+/* Contact page styling */
+.ContactBox {
+  width: 80%;
+  height: 230px;
+  background-color: #53687e99;
+  margin: auto;
+  border-radius: 500px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Icon {
+  height: 85px;
+  width: 85px;
+}
+/* Contact page styling */
