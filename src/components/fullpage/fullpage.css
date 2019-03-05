@@ -29,13 +29,16 @@ hover title on dot nav
 .Selfie {
   float: left;
   margin-left: 20px;
-  opacity: 0.83;
 }
 
 .Talos {
   float: right;
   margin-right: 20px;
-  opacity: 0.9;
+}
+
+.HomeBox h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
 }
 
 .HomeBox a {
@@ -52,7 +55,7 @@ hover title on dot nav
 
 /* Projects pages styling */
 .ProjectBox {
-  height: 85%;
+  height: 80%;
   width: 90%;
   background-color: #53687e99;
   margin: auto;
@@ -63,13 +66,26 @@ hover title on dot nav
 }
 
 .ProjectBox img {
-  width: 40%;
+  width: 35%;
   margin: 0px auto;
 }
 
 .ProjectBox p {
   font-size: 20px;
   margin: 0px 220px;
+}
+
+.ProjectTitle {
+  display: inline;
+}
+
+.ProjectBox a {
+  text-decoration: none;
+  color: #0000ff;
+}
+
+.ProjectBox a:hover {
+  cursor: pointer;
 }
 
 /*arrows for slides on projects section*/
@@ -122,3 +138,33 @@ hover title on dot nav
   color: hotpink;
 }
 /* Contact page styling */
+
+/* Phone Media Queries */
+
+@media screen and (max-width: 440px) {
+  .HomeBox img {
+    height: 160px;
+  }
+
+  .fp-controlArrow.fp-next {
+    display: none;
+  }
+
+  .fp-controlArrow.fp-prev {
+    display: none;
+  }
+
+  .ContactBox {
+    width: 90%;
+    border-radius: 70px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .HomeBox img {
+    height: 160px;
+  }
+  .ProjectBox p {
+    margin: 0px 10px;
+  }
+}

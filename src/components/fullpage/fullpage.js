@@ -39,7 +39,7 @@ class Fullpage extends React.Component {
                       title="Talos"
                     />
                   </div>
-                  <h2>Kenny Pham</h2>
+                  <h2>Kenny H Pham</h2>
                   <br />
                   <p>Software Developer driven by UI/UX</p>
                   <br />
@@ -56,11 +56,16 @@ class Fullpage extends React.Component {
               <div className="section">
                 <div className="slide">
                   <div className="ProjectBox">
-                    <h2>Quilly</h2>
+                    <div className="ProjectTitle">
+                      <h2>Quilly </h2>
+                      <a href="https://youtu.be/W4RoVPulbg4">YouTube </a>
+
+                      <a href="https://github.com/Lambda-School-Labs/CS8-Quilly">
+                        GitHub
+                      </a>
+                    </div>
                     <img src={Quilly} alt="quilly" />
-
                     <p>Tech Stack: React, Node.JS, Express, MongoDB</p>
-
                     <p>
                       Quilly is a job application tracker that allows a user to
                       keep track of all their applications all in one place. It
@@ -72,7 +77,12 @@ class Fullpage extends React.Component {
                 <div>
                   <div className="slide">
                     <div className="ProjectBox">
-                      <h2>Ball Collision Game</h2>
+                      <div className="ProjectTitle">
+                        <h2>Ball Collision Game</h2>
+                        <a href="https://github.com/kennington24/Ball-Collision-Game">
+                          GitHub
+                        </a>
+                      </div>
                       <img src={BallGame} alt="ball collision" />
                       <p>Tech Stack: HTML, CSS, HTML Cancas, Javascript</p>
                       <p>
@@ -86,7 +96,12 @@ class Fullpage extends React.Component {
                 <div>
                   <div className="slide">
                     <div className="ProjectBox">
-                      <h2>Conways Life</h2>
+                      <div className="ProjectTitle">
+                        <h2>Conways Life</h2>
+                        <a href="https://github.com/kennington24/Conways-Life/tree/master/projects/life">
+                          GitHub
+                        </a>
+                      </div>
                       <img src={Conways} alt="conways life" />
                       <p>Tech Stack: HTML, CSS, HTML Cancas, Javascript</p>
                       <p>
