@@ -143,7 +143,13 @@ hover title on dot nav
 
 @media screen and (max-width: 440px) {
   .HomeBox img {
+    margin-top: -40px;
+    margin-bottom: 30px;
     height: 160px;
+  }
+
+  .HomeBox h2 {
+    margin-bottom: -5px;
   }
 
   .fp-controlArrow.fp-next {
