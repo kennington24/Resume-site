@@ -87,7 +87,7 @@ class Fullpage extends React.Component {
                       <p>Tech Stack: HTML, CSS, HTML Cancas, Javascript</p>
                       <p>
                         A simple ball collision game that keeps track of score
-                        and lifes. Can be controlled by mouse or keyboard.{' '}
+                        and lives. Can be controlled by mouse or keyboard.{' '}
                       </p>
                     </div>
                   </div>
