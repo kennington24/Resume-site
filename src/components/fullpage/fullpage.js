@@ -84,7 +84,7 @@ class Fullpage extends React.Component {
                         </a>
                       </div>
                       <img src={BallGame} alt="ball collision" />
-                      <p>Tech Stack: HTML, CSS, HTML Cancas, Javascript</p>
+                      <p>Tech Stack: HTML, CSS, HTML Canvas, Javascript</p>
                       <p>
                         A simple ball collision game that keeps track of score
                         and lives. Can be controlled by mouse or keyboard.{' '}
@@ -103,7 +103,7 @@ class Fullpage extends React.Component {
                         </a>
                       </div>
                       <img src={Conways} alt="conways life" />
-                      <p>Tech Stack: HTML, CSS, HTML Cancas, Javascript</p>
+                      <p>Tech Stack: HTML, CSS, HTML Canvas, Javascript</p>
                       <p>
                         Conways Game of Life is a game which takes an initial
                         starting point and takes a certain set of rules to
