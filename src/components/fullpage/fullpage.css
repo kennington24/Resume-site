@@ -76,16 +76,6 @@
 }
 /* ProjectBox Styling */
 
-/*arrows for slides on projects section*/
-.fp-controlArrow.fp-next {
-  right: 0.7% !important;
-  border-color: transparent transparent transparent black !important;
-}
-
-.fp-controlArrow.fp-prev {
-  left: 0.7% !important;
-  border-color: transparent black transparent transparent !important;
-}
 /* Projects pages styling */
 
 /* Contact page styling */
