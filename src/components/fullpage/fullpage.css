@@ -1,3 +1,4 @@
+/* For each full screen "page" */
 .section {
   margin: auto;
   position: relative;
@@ -6,22 +7,7 @@
   text-align: center;
 }
 
-/*dot nav*/
-/* #fp-nav.fp-right {
-  right: 0px;
-}
-
-#fp-nav {
-  top: 100px;
-} */
-/* 
-hover title on dot nav
-#fp-nav ul li .fp-tooltip {
-  color: #53687e;
-} */
-
 /* Home page styling */
-
 .HomeBox img {
   height: 300px;
   border-radius: 50%;
@@ -51,10 +37,10 @@ hover title on dot nav
   background-color: #ffffff99;
   border: 2px solid black;
 }
-
 /* Home page styling */
 
 /* Projects pages styling */
+/* ProjectBox Styling */
 .ProjectBox {
   height: 80%;
   width: 90%;
@@ -88,19 +74,20 @@ hover title on dot nav
 .ProjectBox a:hover {
   cursor: pointer;
 }
+/* ProjectBox Styling */
 
 /*arrows for slides on projects section*/
 .fp-controlArrow.fp-next {
   right: 0.7%;
   border-width: 38.5px 0 38.5px 34px;
-  border-color: transparent transparent transparent black;
+  border-color: transparent transparent transparent black !important;
 }
 
 .fp-controlArrow.fp-prev {
   left: 0.7%;
   width: 0;
   border-width: 38.5px 34px 38.5px 0;
-  border-color: transparent black transparent transparent;
+  border-color: transparent black transparent transparent !important;
 }
 /* Projects pages styling */
 
@@ -140,7 +127,7 @@ hover title on dot nav
 }
 /* Contact page styling */
 
-/* Phone Media Queries */
+/* Phone & Tablet Media Queries */
 
 @media screen and (max-width: 440px) {
   .HomeBox img {
