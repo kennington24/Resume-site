@@ -2,16 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Homepage from './pages/home';
-// import Talospage from './pages/talos';
+import Fullpage from './components/fullpage/fullpage';
+import Navbar from './components/navbar/navbar';
+import Background from './files/Images/BWpainting.jpg';
 
 ReactDOM.render(
-  <Router>
-    <div>
-      <Route exact path="/" component={Homepage} />
-    </div>
-  </Router>,
+  <div>
+    <img src={Background} className="background" alt="background" />
+    <Navbar />
+    <Fullpage />
+  </div>,
+
   document.getElementById('root')
 );
 registerServiceWorker();

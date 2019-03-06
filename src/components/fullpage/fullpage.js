@@ -1,7 +1,10 @@
 import React from 'react';
-// import 'fullpage.js/vendors/scrolloverflow';
+// import 'fullpage.js/vendors/scrolloverflow'
 import ReactFullpage from '@fullpage/react-fullpage';
 import './fullpage.css';
+
+import ProjectBox from '../../components/projects/projectsBox';
+import ProjectBoxNoYT from '../../components/projects/projectsBoxNoYT';
 
 import Selfie from '../../files/Images/Selfie.jpg';
 import Talos from '../../files/Images/Talos.jpg';
@@ -39,7 +42,7 @@ class Fullpage extends React.Component {
                       title="Talos"
                     />
                   </div>
-                  <h2>Kenny H Pham</h2>
+                  <h2>Kenny Pham</h2>
                   <br />
                   <p>Software Developer driven by UI/UX</p>
                   <br />
@@ -54,64 +57,35 @@ class Fullpage extends React.Component {
               </div>
 
               <div className="section">
-                <div className="slide">
-                  <div className="ProjectBox">
-                    <div className="ProjectTitle">
-                      <h2>Quilly </h2>
-                      <a href="https://youtu.be/W4RoVPulbg4">YouTube </a>
+                <ProjectBox
+                  title="Quilly"
+                  youtubeURL="https://youtu.be/W4RoVPulbg4"
+                  githubURL="https://github.com/Lambda-School-Labs/CS8-Quilly"
+                  img={Quilly}
+                  tech="Tech Stack: React, Node.JS, Express, MongoDB"
+                  description="Quilly is a job application tracker that allows a user to
+                keep track of all their applications all in one place. It
+                is based off a Kanban board for the ease of use."
+                />
 
-                      <a href="https://github.com/Lambda-School-Labs/CS8-Quilly">
-                        GitHub
-                      </a>
-                    </div>
-                    <img src={Quilly} alt="quilly" />
-                    <p>Tech Stack: React, Node.JS, Express, MongoDB</p>
-                    <p>
-                      Quilly is a job application tracker that allows a user to
-                      keep track of all their applications all in one place. It
-                      is based off a Kanban board for the ease of use.
-                    </p>
-                  </div>
-                </div>
+                <ProjectBoxNoYT
+                  title="Ball Collision Game"
+                  githubURL="https://github.com/kennington24/Ball-Collision-Game"
+                  img={BallGame}
+                  tech="Tech Stack: HTML, CSS, HTML Canvas, Javascript"
+                  description="A simple ball collision game that keeps track of score
+                  and lives. Can be controlled by mouse or keyboard."
+                />
 
-                <div>
-                  <div className="slide">
-                    <div className="ProjectBox">
-                      <div className="ProjectTitle">
-                        <h2>Ball Collision Game</h2>
-                        <a href="https://github.com/kennington24/Ball-Collision-Game">
-                          GitHub
-                        </a>
-                      </div>
-                      <img src={BallGame} alt="ball collision" />
-                      <p>Tech Stack: HTML, CSS, HTML Canvas, Javascript</p>
-                      <p>
-                        A simple ball collision game that keeps track of score
-                        and lives. Can be controlled by mouse or keyboard.{' '}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div>
-                  <div className="slide">
-                    <div className="ProjectBox">
-                      <div className="ProjectTitle">
-                        <h2>Conways Life</h2>
-                        <a href="https://github.com/kennington24/Conways-Life/tree/master/projects/life">
-                          GitHub
-                        </a>
-                      </div>
-                      <img src={Conways} alt="conways life" />
-                      <p>Tech Stack: HTML, CSS, HTML Canvas, Javascript</p>
-                      <p>
-                        Conways Game of Life is a game which takes an initial
-                        starting point and takes a certain set of rules to
-                        control whether surronding points die or live.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                <ProjectBoxNoYT
+                  title="Conways Game of Life"
+                  githubURL="https://github.com/kennington24/Conways-Life/tree/master/projects/life"
+                  img={Conways}
+                  tech="Tech Stack: HTML, CSS, HTML Canvas, Javascript"
+                  description="Conways Game of Life is a game which takes an initial
+                  starting point and takes a certain set of rules to
+                  control whether surronding points die or live."
+                />
               </div>
 
               <div className="section">
