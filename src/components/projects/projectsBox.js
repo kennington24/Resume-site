@@ -1,12 +1,13 @@
 import React from 'react';
 
 function projectBox(props) {
+  const youtubeURL = props.youtubeURL;
   return (
     <div className="slide">
       <div className="ProjectBox">
         <div className="ProjectTitle">
           <h2>{props.title}</h2>
-          <a href={props.youtubeURL}>YouTube </a>
+          {youtubeURL.length > 0 && <a href={props.youtubeURL}>YouTube </a>}
 
           <a href={props.githubURL}>GitHub</a>
         </div>

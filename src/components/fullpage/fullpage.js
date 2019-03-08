@@ -4,7 +4,6 @@ import ReactFullpage from '@fullpage/react-fullpage';
 import './fullpage.css';
 
 import ProjectBox from '../../components/projects/projectsBox';
-import ProjectBoxNoYT from '../../components/projects/projectsBoxNoYT';
 
 import Selfie from '../../files/Images/Selfie.jpg';
 import Talos from '../../files/Images/Talos.jpg';
@@ -58,7 +57,7 @@ class Fullpage extends React.Component {
 
               <div className="section">
                 <ProjectBox
-                  title="Quilly"
+                  title={<a href="https://www.quilly.io">Quilly.io</a>}
                   youtubeURL="https://youtu.be/W4RoVPulbg4"
                   githubURL="https://github.com/Lambda-School-Labs/CS8-Quilly"
                   img={Quilly}
@@ -68,8 +67,9 @@ class Fullpage extends React.Component {
                 is based off a Kanban board for the ease of use."
                 />
 
-                <ProjectBoxNoYT
+                <ProjectBox
                   title="Ball Collision Game"
+                  youtubeURL=""
                   githubURL="https://github.com/kennington24/Ball-Collision-Game"
                   img={BallGame}
                   tech="Tech Stack: HTML, CSS, HTML Canvas, Javascript"
@@ -77,8 +77,9 @@ class Fullpage extends React.Component {
                   and lives. Can be controlled by mouse or keyboard."
                 />
 
-                <ProjectBoxNoYT
+                <ProjectBox
                   title="Conways Game of Life"
+                  youtubeURL=""
                   githubURL="https://github.com/kennington24/Conways-Life/tree/master/projects/life"
                   img={Conways}
                   tech="Tech Stack: HTML, CSS, HTML Canvas, Javascript"
