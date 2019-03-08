@@ -59,7 +59,7 @@
 
 .ProjectBox p {
   font-size: 20px;
-  margin: 0px 220px;
+  margin: 0px 10%;
 }
 
 .ProjectTitle {
@@ -127,6 +127,9 @@
     margin-bottom: -5px;
   }
 
+  .ProjectBox img {
+    width: 75%;
+  }
   .fp-controlArrow.fp-next {
     display: none;
   }
@@ -147,5 +150,20 @@
   }
   .ProjectBox p {
     margin: 0px 10px;
+  }
+  .ProjectBox img {
+    width: 55%;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .HomeBox img {
+    margin-top: 5px;
+  }
+  .HomeBox p {
+    margin: 5px 0px;
+  }
+  .ProjectBox p {
+    font-size: 15px;
   }
 }
