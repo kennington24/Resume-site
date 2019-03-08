@@ -119,14 +119,20 @@
 @media screen and (max-width: 440px) {
   .HomeBox img {
     margin-top: -40px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     height: 160px;
   }
 
   .HomeBox h2 {
     margin-bottom: -5px;
   }
-
+  .ProjectBox {
+    width: 95% !important;
+  }
+  .ProjectBox p {
+    font-size: 17px;
+    margin: 0px 10%;
+  }
   .ProjectBox img {
     width: 75%;
   }
@@ -144,15 +150,15 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 770px) {
   .HomeBox img {
     height: 160px;
   }
-  .ProjectBox p {
-    margin: 0px 10px;
-  }
   .ProjectBox img {
     width: 55%;
+  }
+  .ProjectBox {
+    width: 85%;
   }
 }
 
