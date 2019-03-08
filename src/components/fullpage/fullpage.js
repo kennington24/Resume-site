@@ -61,7 +61,7 @@ class Fullpage extends React.Component {
                   youtubeURL="https://youtu.be/W4RoVPulbg4"
                   githubURL="https://github.com/Lambda-School-Labs/CS8-Quilly"
                   img={Quilly}
-                  tech="Tech Stack: React, Node.JS, Express, MongoDB"
+                  tech="Tech Stack: MERN; React, Node.JS, Express, MongoDB"
                   description="Quilly is a job application tracker that allows a user to
                 keep track of all their applications all in one place. It
                 is based off a Kanban board for the ease of use."
